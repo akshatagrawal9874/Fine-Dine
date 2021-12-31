@@ -1,0 +1,96 @@
+.container {
+    background-image: url("../../Assets/logo\ \(4\).png") no-repeat center fixed;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    margin-top: 35vh;
+    transform: translatey(-50%);
+    margin-left: 10vw;
+    max-width: 400px;
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10%;
+    color: rgb(122, 73, 73);
+}
+
+.avtar {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+.avtarLogo {
+    background-color: #FFCC63;
+    padding: 1px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+
+.mystyle {
+    background-color: whitesmoke;
+}
+
+.inputField {
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    color: snow;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-bottom: 1px solid white;
+}
+
+.submitBtn {
+    transform: translateY(50%);
+    font-size: 25px;
+    text-align: center;
+    background-color: #1a1718;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+@media (max-width: 750px) {
+    .form {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .linkContainer {
+        display: block;
+        text-align: left;
+    }
+}
+
+.brand {
+    padding: 15px;
+}
+
+.brand .brandImg {
+    height: 150px;
+    border-radius: 20px;
+}
